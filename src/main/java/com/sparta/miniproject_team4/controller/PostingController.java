@@ -66,13 +66,6 @@ public class PostingController {
         postingRepository.deleteById(id);
         return id;
     }
-<<<<<<< HEAD
-    
-    1
-    
-=======
 
-    2
->>>>>>> 7a218e38982db6fe5d29e3430ac8dd187ac323c9
 
 }
