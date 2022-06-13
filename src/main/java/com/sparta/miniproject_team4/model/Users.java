@@ -1,5 +1,6 @@
 package com.sparta.miniproject_team4.model;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -36,6 +37,7 @@ public class Users {
 
 
 
+    @Builder
     public Users(String username, String password, String email) {
         this.username = username;
         this.password = password;
