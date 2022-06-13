@@ -66,6 +66,7 @@ public class PostingController {
         postingRepository.deleteById(id);
         return id;
     }
-    
+
+    2
 
 }
