@@ -20,23 +20,23 @@ public class UserController {
 
     }
 
-    // 회원 로그인 페이지
-    @GetMapping("/users/login")
-    public String login() {
-        return "login";
-    }
-
-    // 회원 가입 페이지
-    @GetMapping("/users/signup")
-    public String signup() {
-        return "signup";
-    }
+//    // 회원 로그인 페이지
+//    @GetMapping("/users/login")
+//    public String login() {
+//        return "login";
+//    }
+//
+//    // 회원 가입 페이지
+//    @GetMapping("/users/register")
+//    public String signup() {
+//        return "signup";
+//    }
 
     // 회원 가입 요청 처리
-    @PostMapping("/users/signup")
+    @PostMapping("/users/register")
     public String registerUser(SignupRequestDto requestDto) {
         userService.registerUser(requestDto);
-        return "login";
+        return "/";
     }
 // 유저 로그인 체크(삭제예정_HTML테스트용)
 //    @GetMapping("/api/userCheck")
