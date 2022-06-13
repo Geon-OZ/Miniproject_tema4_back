@@ -64,8 +64,13 @@ public class PostingController {
         postingRepository.deleteById(id);
         return id;
     }
+<<<<<<< HEAD
     
     1
     
+=======
+
+    2
+>>>>>>> origin/main
 
 }
