@@ -7,9 +7,11 @@ import com.sparta.miniproject_team4.security.UserDetailsImpl;
 import com.sparta.miniproject_team4.service.PostingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.parameters.P;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
@@ -64,8 +66,13 @@ public class PostingController {
         postingRepository.deleteById(id);
         return id;
     }
+<<<<<<< HEAD
     
     1
     
+=======
+
+    2
+>>>>>>> 7a218e38982db6fe5d29e3430ac8dd187ac323c9
 
 }

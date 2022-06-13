@@ -1,0 +1,9 @@
+diff a/src/main/java/com/sparta/miniproject_team4/controller/PostingController.java b/src/main/java/com/sparta/miniproject_team4/controller/PostingController.java	(rejected hunks)
+@@ -65,5 +65,7 @@
+         return id;
+     }
+     
++    1
++    
+ 
+ }
