@@ -26,7 +26,9 @@ public class UserController {
         if(bindingResult.hasErrors()){
              throw new NullPointerException("에러.");
         }
-        if (!signupRequestDto.getPassword1())
+//        if (!signupRequestDto.getPassword1())
+
+        return "회원가입되었습니다";
     }
 
 
